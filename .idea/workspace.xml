@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4bbc15f-2187-4e29-a722-add5bc3fcb26" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="bbcMarkup.iws" />
@@ -34,7 +35,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="45" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.53396225">
+            <state line="170" column="42" selection-start="4848" selection-end="4848" vertical-scroll-proportion="0.26415095">
               <folding />
             </state>
           </provider>
@@ -406,7 +407,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="45" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.53396225">
+        <state line="170" column="42" selection-start="4848" selection-end="4848" vertical-scroll-proportion="0.26415095">
           <folding />
         </state>
       </provider>
