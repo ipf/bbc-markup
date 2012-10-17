@@ -2,111 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4bbc15f-2187-4e29-a722-add5bc3fcb26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bbcdaas/table.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Capfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation.gemspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/foundation/engine.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/foundation/generators/USAGE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/foundation/generators/install_generator.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/foundation/generators/layout_generator.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/foundation/generators/templates/application.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/foundation/generators/templates/application.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/foundation/generators/templates/application.html.slim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/foundation/version.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/zurb-foundation.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/_settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/common/_base.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/common/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/common/_globals.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/common/_ratios.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/common/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/components/modules/_all.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/components/modules/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/components/modules/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/components/modules/_offcanvas.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/components/modules/_orbit.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/components/modules/_reveal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/components/modules/_tabs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/components/modules/_topbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/components/modules/_ui.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/functions/_all.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/functions/_convert-number-to-word.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/functions/_grid-calc.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/functions/modular-scale.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/mixins/_all.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/mixins/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/mixins/_css-triangle.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/mixins/_font-size.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/mixins/_respond-to.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/foundation/mixins/_semantic-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/project/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/project/MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/project/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/project/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/project/manifest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/project/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/project/scss/_settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/project/scss/app.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/upgrade/manifest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/forms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/images/orbit-demo/demo1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/images/orbit-demo/demo2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/images/orbit-demo/demo3.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/images/orbit-demo/slider-background.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/navigation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/orbit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/reveal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/scss/_settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/scss/styles.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/tabs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/topbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/type.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/images/foundation/orbit/bullets.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/images/foundation/orbit/left-arrow-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/images/foundation/orbit/left-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/images/foundation/orbit/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/images/foundation/orbit/mask-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/images/foundation/orbit/pause-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/images/foundation/orbit/right-arrow-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/images/foundation/orbit/right-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/images/foundation/orbit/rotator-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/images/foundation/orbit/timer-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.foundation.accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.foundation.alerts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.foundation.buttons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.foundation.forms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.foundation.mediaQueryToggle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.foundation.navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.foundation.orbit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.foundation.reveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.foundation.tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.foundation.tooltips.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.foundation.topbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.offcanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/jquery.placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/foundation/modernizr.foundation.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table.html" afterPath="$PROJECT_DIR$/table.html" />
     </list>
     <ignored path="bbcMarkup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -126,10 +24,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="table.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bbcdaas/table.html">
+      <file leaf-file-name="table.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/table.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="846" column="22" selection-start="78059" selection-end="78059" vertical-scroll-proportion="10.080727">
+            <state line="679" column="44" selection-start="25539" selection-end="25539" vertical-scroll-proportion="-10.708333">
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -347,6 +245,69 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="125" column="17" selection-start="3199" selection-end="3199" vertical-scroll-proportion="0.74601597">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="robots.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robots.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_settings.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_settings.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="humans.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/humans.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -361,14 +322,33 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/table.html" />
+        <option value="$PROJECT_DIR$/config.rb" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="64" />
     <option name="y" value="-4" />
     <option name="width" value="1857" />
     <option name="height" value="1205" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CSS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -413,8 +393,32 @@
               <option name="myItemId" value="bbcMarkup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bbcdaas" />
+              <option name="myItemId" value="bbcMarkup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bbcMarkup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bbcMarkup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bbcMarkup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,8 +428,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode.CoffeeScript" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -463,13 +471,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1857" height="1205" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -537,9 +545,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bbcdaas/table.html">
+    <entry file="file://$PROJECT_DIR$/table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="846" column="22" selection-start="78059" selection-end="78059" vertical-scroll-proportion="10.080727">
+        <state line="679" column="44" selection-start="25539" selection-end="25539" vertical-scroll-proportion="-10.708333">
           <folding>
             <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -756,6 +764,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/humans.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="17" selection-start="3199" selection-end="3199" vertical-scroll-proportion="0.74601597">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
