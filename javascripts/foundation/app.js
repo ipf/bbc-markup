@@ -32,3 +32,64 @@
   }
 
 })(jQuery, this);
+
+
+var data = [
+	{
+		label: 'Geo Location Data',
+		children: [
+			{
+				label: 'child1',
+				children: [
+					{
+						label: 'child1'
+					},
+					{
+						label: 'child2'
+					}
+				]
+			},
+			{
+				label: 'child2'
+			}
+		]
+	},
+	{
+		label: 'Business Data',
+		children: [
+			{ label: 'child3' }
+		]
+	},
+	{
+		label: 'Government',
+		children: [
+			{ label: 'child3' }
+		]
+	},
+	{
+		label: 'Education',
+		children: [
+			{ label: 'child3' }
+		]
+	}
+];
+
+var $tree = $('#tree1');
+
+$tree.tree({
+	data: data,
+	autoOpen: false,
+	dragAndDrop: true
+});
+// bind 'tree.click' event
+$tree.bind(
+	'tree.click',
+	function(event) {
+		var node = event.node;
+		if (node.is_open) {
+			$tree.tree('closeNode', node);
+		} else {
+			$tree.tree('openNode', node);
+		}
+	}
+);
