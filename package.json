@@ -1,0 +1,27 @@
+{
+	"name": "bbcdaas",
+	"version": "0.2.0",
+	"description": "Building blocks for cloud data as a service",
+	"homepage": "http://www.bbcdaas.de",
+	"author": {
+		"name": "Ingo Pfennigstorf",
+		"email": "i.pfennigstorf@gmail.com",
+		"web": "http://github.com/ipf"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/ipf/bbc-markup.git"
+	},
+	"engines": {
+		"node": "~0.8.0"
+	},
+	"dependencies": {
+		"underscore" : "~1.3.3",
+		"backbone" :">0.5.1",
+		"express" : "~2.5.9",
+		"mustache" : "~0.4.0"
+	},
+	"devDependencies": {
+		"grunt-contrib-mincss": "~0.3.1"
+	}
+}
