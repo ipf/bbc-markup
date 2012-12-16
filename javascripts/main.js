@@ -1,6 +1,3 @@
-require(["jquery", "tree.jquery", "foundation/jquery.foundation.mediaQueryToggle"], function($) {
-	//the jquery.alpha.js and jquery.beta.js plugins have been loaded.
-	$(function() {
-		$('body').tree.jquery().beta();
-	});
+require(["foundation/jquery", "tree.jquery", "foundation/jquery.foundation.mediaQueryToggle", "javascripts/foundation/jquery.foundation.tooltips.js", "../node_modules/underscore/underscore.js", "../node_modules/backbone/backbone.js", "../node_modules/mustache/mustache.js", "./javascripts/recline.js", "javascripts/foundation/jquery.placeholder.js", "javascripts/foundation/app.js"], function($) {
+
 });
