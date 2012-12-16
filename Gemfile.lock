@@ -1,0 +1,33 @@
+GIT
+  remote: git@github.com:zurb/foundation.git
+  revision: cf3136599a1e6d9673195471523fd8fe1a17b276
+  specs:
+    zurb-foundation (3.2.3)
+      compass (>= 0.12.2)
+      modular-scale (>= 1.0.2)
+      rake
+      sass (>= 3.2.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chunky_png (1.2.6)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    fssm (0.2.9)
+    modular-scale (1.0.2)
+      compass (>= 0.11.5)
+      sassy-math (>= 1.2)
+    rake (10.0.3)
+    sass (3.2.3)
+    sassy-math (1.2)
+      compass (~> 0.11)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass
+  zurb-foundation!
