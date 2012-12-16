@@ -745,12 +745,12 @@ form.custom .custom.disabled {
 /* Correct FF custom dropdown height */
 @-moz-document url-prefix() {
   form.custom div.custom.dropdown a.selector {
-    height: 30px;
+    height: 28px;
   }
 }
 
 .lt-ie9 form.custom div.custom.dropdown a.selector {
-  height: 30px;
+  height: 28px;
 }
 
 /* The Grid ---------------------- */
@@ -1252,7 +1252,7 @@ that IE7/8 do not support :nth-child.
   -moz-box-shadow: none;
   box-shadow: none;
 }
-.button.disabled :hover, .button[disabled] :hover {
+.button.disabled:hover, .button[disabled]:hover {
   background: #2ba6cb;
 }
 .button.disabled.success, .button[disabled].success {
@@ -1599,14 +1599,14 @@ ul.button-group li {
 ul.button-group li:first-child {
   margin-left: 0;
 }
-ul.button-group.radius li a.button, ul.button-group.radius li a.button.radius, ul.button-group.radius li a.button-rounded, ul.button-group.radius li input[type="submit"].button, ul.button-group.radius li input[type="submit"].button.radius, ul.button-group.radius li input[type="submit"].button-rounded {
+ul.button-group.radius li .button, ul.button-group.radius li .button.radius, ul.button-group.radius li .button-rounded {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
   border-radius: 0px;
 }
-ul.button-group.radius li:first-child a.button, ul.button-group.radius li:first-child a.button.radius, ul.button-group.radius li:first-child input[type="submit"].button, ul.button-group.radius li:first-child input[type="submit"].button.radius {
+ul.button-group.radius li:first-child .button, ul.button-group.radius li:first-child .button.radius {
   -moz-border-radius-topleft: 3px;
   -webkit-border-top-left-radius: 3px;
   border-top-left-radius: 3px;
@@ -1614,7 +1614,7 @@ ul.button-group.radius li:first-child a.button, ul.button-group.radius li:first-
   -webkit-border-bottom-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-ul.button-group.radius li:first-child a.button.rounded, ul.button-group.radius li:first-child input[type="submit"].button.rounded {
+ul.button-group.radius li:first-child .button.rounded {
   -moz-border-radius-topleft: 1000px;
   -webkit-border-top-left-radius: 1000px;
   border-top-left-radius: 1000px;
@@ -1622,7 +1622,7 @@ ul.button-group.radius li:first-child a.button.rounded, ul.button-group.radius l
   -webkit-border-bottom-left-radius: 1000px;
   border-bottom-left-radius: 1000px;
 }
-ul.button-group.radius li:last-child a.button, ul.button-group.radius li:last-child a.button.radius, ul.button-group.radius li:last-child input[type="submit"].button, ul.button-group.radius li:last-child input[type="submit"].button.radius {
+ul.button-group.radius li:last-child .button, ul.button-group.radius li:last-child .button.radius {
   -moz-border-radius-topright: 3px;
   -webkit-border-top-right-radius: 3px;
   border-top-right-radius: 3px;
@@ -1630,7 +1630,7 @@ ul.button-group.radius li:last-child a.button, ul.button-group.radius li:last-ch
   -webkit-border-bottom-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-ul.button-group.radius li:last-child a.button.rounded, ul.button-group.radius li:last-child input[type="submit"].button.rounded {
+ul.button-group.radius li:last-child .button.rounded {
   -moz-border-radius-topright: 1000px;
   -webkit-border-top-right-radius: 1000px;
   border-top-right-radius: 1000px;
@@ -2254,7 +2254,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 
 /* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
 /* Timer ---------------------- */
-div.orbit-wrapper div.timer {
+.orbit-wrapper .timer {
   width: 40px;
   height: 40px;
   overflow: hidden;
@@ -2265,7 +2265,7 @@ div.orbit-wrapper div.timer {
   cursor: pointer;
   z-index: 31;
 }
-div.orbit-wrapper span.rotator {
+.orbit-wrapper span.rotator {
   display: block;
   width: 40px;
   height: 40px;
@@ -2275,10 +2275,10 @@ div.orbit-wrapper span.rotator {
   background: url('../../../images/foundation/orbit/rotator-black.png') no-repeat;
   z-index: 3;
 }
-div.orbit-wrapper span.rotator.move {
+.orbit-wrapper span.rotator.move {
   left: 0;
 }
-div.orbit-wrapper span.mask {
+.orbit-wrapper span.mask {
   display: block;
   width: 20px;
   height: 40px;
@@ -2288,12 +2288,12 @@ div.orbit-wrapper span.mask {
   z-index: 2;
   overflow: hidden;
 }
-div.orbit-wrapper span.mask.move {
+.orbit-wrapper span.mask.move {
   width: 40px;
   left: 0;
   background: url('../../../images/foundation/orbit/timer-black.png') repeat 0 0;
 }
-div.orbit-wrapper span.pause {
+.orbit-wrapper span.pause {
   display: block;
   width: 40px;
   height: 40px;
@@ -2304,10 +2304,10 @@ div.orbit-wrapper span.pause {
   z-index: 4;
   opacity: 0;
 }
-div.orbit-wrapper span.pause.active {
+.orbit-wrapper span.pause.active {
   background: url('../../../images/foundation/orbit/pause-black.png') no-repeat 0 -40px;
 }
-div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper div.timer:focus span.pause, div.orbit-wrapper span.pause.active {
+.orbit-wrapper .timer:hover span.pause, .orbit-wrapper .timer:focus span.pause, .orbit-wrapper span.pause.active {
   opacity: 1;
 }
 
@@ -2332,10 +2332,10 @@ div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper div.timer:focus 
 }
 
 /* Directional Nav ---------------------- */
-div.orbit-wrapper div.slider-nav {
+.orbit-wrapper .slider-nav {
   display: block;
 }
-div.orbit-wrapper div.slider-nav span {
+.orbit-wrapper .slider-nav span {
   width: 39px;
   height: 50px;
   text-indent: -9999px;
@@ -2345,21 +2345,21 @@ div.orbit-wrapper div.slider-nav span {
   margin-top: -25px;
   cursor: pointer;
 }
-div.orbit-wrapper div.slider-nav span.right {
+.orbit-wrapper .slider-nav span.right {
   background: url('../../../images/foundation/orbit/right-arrow.png');
   background-size: 100%;
   right: 0;
 }
-div.orbit-wrapper div.slider-nav span.left {
+.orbit-wrapper .slider-nav span.left {
   background: url('../../../images/foundation/orbit/left-arrow.png');
   background-size: 100%;
   left: 0;
 }
 
-.lt-ie9 div.orbit-wrapper div.slider-nav span.right {
+.lt-ie9 .orbit-wrapper .slider-nav span.right {
   background: url('../../../images/foundation/orbit/right-arrow-small.png');
 }
-.lt-ie9 div.orbit-wrapper div.slider-nav span.left {
+.lt-ie9 .orbit-wrapper .slider-nav span.left {
   background: url('../../../images/foundation/orbit/left-arrow-small.png');
 }
 
@@ -2409,14 +2409,14 @@ ul.orbit-bullets li.active.has-thumb {
 }
 
 /* Fluid Layout ---------------------- */
-div.orbit img.fluid-placeholder {
+.orbit img.fluid-placeholder {
   visibility: hidden;
   position: static;
   display: block;
   width: 100%;
 }
 
-div.orbit, div.orbit-wrapper {
+.orbit, .orbit-wrapper {
   width: 100% !important;
 }
 
@@ -2425,18 +2425,18 @@ div.orbit, div.orbit-wrapper {
   display: none !important;
 }
 
-.lt-ie9 div.orbit-caption {
+.lt-ie9 .orbit-caption {
   background: black;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
   zoom: 1;
 }
 
 @media only screen and (max-width: 767px) {
-  div.orbit.orbit-stack-on-small img.fluid-placeholder {
+  .orbit.orbit-stack-on-small img.fluid-placeholder {
     visibility: visible;
   }
 
-  div.orbit.orbit-stack-on-small .orbit-slide {
+  .orbit.orbit-stack-on-small .orbit-slide {
     position: static;
     margin-bottom: 10px;
   }
@@ -3026,13 +3026,13 @@ ul.block-grid[data-clearing] {
 .tabs.two-up dt, .tabs.two-up dd, .tabs.two-up li {
   width: 50%;
 }
-.tabs.three-up dt, .tabs.three-up dd, .tabs.two-up li {
+.tabs.three-up dt, .tabs.three-up dd, .tabs.three-up li {
   width: 33.33%;
 }
-.tabs.four-up dt, .tabs.four-up dd, .tabs.two-up li {
+.tabs.four-up dt, .tabs.four-up dd, .tabs.four-up li {
   width: 25%;
 }
-.tabs.five-up dt, .tabs.five-up dd, .tabs.two-up li {
+.tabs.five-up dt, .tabs.five-up dd, .tabs.five-up li {
   width: 20%;
 }
 
@@ -4743,15 +4743,15 @@ table.hide-for-medium {
     top: 0;
     height: auto;
   }
-  .tabs.mobile dd:first-child, .tabs.mobile li:first-child {
-    padding-left: 20px !important;
-  }
   .tabs.mobile dd:first-child a.active, .tabs.mobile li:first-child a.active {
     margin: 0;
   }
   .tabs.mobile + .tabs-content.contained {
     margin-left: -15px;
     margin-right: -15px;
+  }
+  .tabs.mobile .section-title {
+    padding-left: 20px !important;
   }
 
   .contained.mobile {

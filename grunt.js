@@ -35,9 +35,9 @@ module.exports = function (grunt) {
 					"Resources/Private/JavaScript/foundation/jquery.placeholder.js",
 					'Resources/Private/JavaScript/foundation/jquery.foundation.accordion.js',
 					'Resources/Private/JavaScript/foundation/app.js',
-					'node_modules/underscore/underscore.js',
-					'node_modules/backbone/backbone.js',
-					'node_modules/mustache/mustache.js',
+					'Resources/Private/JavaScript/underscore/underscore.js',
+					'Resources/Private/JavaScript//backbone/backbone.js',
+					'Resources/Private/JavaScript/mustache/mustache.js',
 					'Resources/Private/JavaScript/recline/dist.recline.js'
 				],
 				dest: 'Resources/Public/JavaScript/<%= pkg.name %>.js'
@@ -93,11 +93,10 @@ module.exports = function (grunt) {
 					bare: true
 				}
 			}
-		}
+		},
 	});
-
 	// Default task.
-	grunt.registerTask('default', 'coffee compass lint concat min');
+	grunt.registerTask('default', 'bower coffee compass lint concat min');
 	grunt.loadNpmTasks('grunt-compass');
 	grunt.loadNpmTasks('grunt-coffee');
 };
