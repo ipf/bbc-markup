@@ -1,0 +1,3 @@
+[submodule "javascripts/recline"]
+	path = javascripts/recline
+	url = git://github.com/okfn/recline.git
