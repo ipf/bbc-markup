@@ -15,14 +15,15 @@
 	<!-- Set the viewport width to device width for mobile -->
 	<meta name="viewport" content="width=device-width"/>
 
-	<title>BBC-DaaS | Building Blocks of Cloud - Data as a Service</title>
+	<title>Analytics | BBC-DaaS</title>
 
 	<!-- Included CSS Files -->
 	<link rel="stylesheet" href="Resources/Public/Css/app.css">
 
-	<script src="Resources/Public/JavaScript/require-jquery.js"></script>
 	<script src="Resources/Public/JavaScript/bbcdaas.js"></script>
-
+	<script type="text/javascript" src="Resources/Private/JavaScript/recline/vendor/flotr2/flotr2.js"></script>
+	<script type="text/javascript" src="Resources/Private/JavaScript/recline/src/view.graph.js"></script>
+	<script type="text/javascript" src="Resources/Public/JavaScript/App.js"></script>
 	<!-- IE Fix for HTML5 Tags -->
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -84,75 +85,8 @@
 <div class="row">
 	<div class="twelve columns">
 		<div class="eight columns">
+			<div class="mygrid"> </div>
 
-			<h3>Available Datasets</h3>
-			<table>
-				<thead>
-				<th>Name</th>
-				<th>Downloads</th>
-				<th>Description</th>
-				<th>Posted</th>
-				</thead>
-				<tbody>
-				<tr>
-					<td>flight data</td>
-					<td>1,900</td>
-					<td>Bavaria ipsum dolor sit amet da und glei wirds no fui lustiga Engelgwand, Biaschlegl schoo zwoa Biagadn fei Semmlkneedl gscheit.</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>another test</td>
-					<td>1,900</td>
-					<td>Griasd eich midnand gschmeidig dringma aweng, ned nimmds.</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>movielens</td>
-					<td>1,900</td>
-					<td>Mechad du dadst ma scho daugn Sauwedda nomoi i i bin a woschechta Bayer luja bittschön nimma nimma a Hoiwe.</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>Milk Rad Data</td>
-					<td>1,900</td>
-					<td>Woaß glei hob Gams Schdarmbeaga See, da muass mim Jodler o’ha wo hi</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>Faves</td>
-					<td>1,900</td>
-					<td>Oamoi Stubn Milli, nackata Blosmusi am acht’n Tag schuf Gott des Bia</td>
-					<td></td>
-				</tr>
-				</tbody>
-			</table>
-			<ul class="pagination">
-				<li class="arrow unavailable"><a href="">&laquo;</a></li>
-				<li class="current"><a href="">1</a></li>
-				<li><a href="">2</a></li>
-				<li><a href="">3</a></li>
-				<li><a href="">4</a></li>
-				<li class="unavailable"><a href="">&hellip;</a></li>
-				<li><a href="">12</a></li>
-				<li><a href="">13</a></li>
-				<li class="arrow"><a href="">&raquo;</a></li>
-			</ul>
-		</div>
-		<div class="four columns">
-			<div class="row collapse">
-				<div class="eight mobile-three columns">
-					<input type="text" />
-				</div>
-				<div class="four mobile-one columns">
-					<a href="#" class="postfix button expand">Search</a>
-				</div>
-			</div>
-		</div>
-		<div class="four columns">
-			<div class="row collapse">
-				<h3>Categories</h3>
-				<div id="tree1"></div>
-			</div>
 		</div>
 		<div class="four columns">
 			<h3>Tags</h3>

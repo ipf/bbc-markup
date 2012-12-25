@@ -1,22 +1,7 @@
 
 $(function() {
-  var $el, $tree, datas, dataset, grid;
-  $tree = $("#tree1");
-  $tree.tree({
-    data: data,
-    autoOpen: false,
-    dragAndDrop: true
-  });
-  $tree.bind("tree.click", function(event) {
-    var node;
-    node = event.node;
-    if (node.is_open) {
-      return $tree.tree("closeNode", node);
-    } else {
-      return $tree.tree("openNode", node);
-    }
-  });
-  datas = [
+  var $el, data, dataset, graph;
+  data = [
     {
       id: 0,
       date: "2011-01-01",
@@ -86,13 +71,17 @@ $(function() {
     }
   ];
   dataset = new recline.Model.Dataset({
-    records: datas
+    records: data
   });
   $el = $(".mygrid");
-  grid = new recline.View.SlickGrid({
+  graph = new recline.View.Graph({
     model: dataset,
-    el: $el
+    state: {
+      group: "date",
+      series: ["x", "z"]
+    }
   });
-  grid.visible = true;
-  return grid.render();
+  $el.append(graph.el);
+  graph.render();
+  return graph.redraw();
 });

@@ -1,20 +1,5 @@
 $ ->
-	$tree = $("#tree1")
-	$tree.tree
-		data: data
-		autoOpen: false
-		dragAndDrop: true
-
-
-	# bind 'tree.click' event
-	$tree.bind "tree.click", (event) ->
-		node = event.node
-		if node.is_open
-			$tree.tree "closeNode", node
-		else
-			$tree.tree "openNode", node
-
-	datas = [
+	data = [
 		id: 0
 		date: "2011-01-01"
 		x: 1
@@ -75,11 +60,15 @@ $ ->
 			lat: 51.04
 			lon: 7.9
 	]
-	dataset = new recline.Model.Dataset(records: datas)
+	dataset = new recline.Model.Dataset(records: data)
 	$el = $(".mygrid")
-	grid = new recline.View.SlickGrid(
+	graph = new recline.View.Graph({
 		model: dataset
-		el: $el
-	)
-	grid.visible = true
-	grid.render()
+		state: {
+			group: "date",
+			series: ["x", "z"]
+		}
+	})
+	$el.append(graph.el)
+	graph.render()
+	graph.redraw()
