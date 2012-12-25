@@ -65,7 +65,7 @@ $ ->
 	graph = new recline.View.Graph({
 		model: dataset
 		state: {
-			group: "date",
+			group: "country",
 			series: ["x", "z"]
 		}
 	})
