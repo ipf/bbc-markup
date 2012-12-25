@@ -78,7 +78,7 @@ $(function() {
     model: dataset,
     state: {
       group: "country",
-      series: ["x", "z"]
+      series: ["x", "y", "z"]
     }
   });
   $el.append(graph.el);
